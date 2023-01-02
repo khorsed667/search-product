@@ -1,0 +1,74 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(240, 239, 243);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 350px;
+    height: 520px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+.container::-webkit-scrollbar{
+    display: none;
+}
+
+.container form{
+    border: 1px solid rgb(82, 74, 235);
+    width: 92%;
+    border-radius: 15px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+
+.container form span{
+    padding-left: 10px;
+}
+input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding-left: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.product{
+    display: flex;
+    flex-direction: row;
+    margin-top: 17px;
+    padding-left: 10px;
+
+}
+
+.product-details{
+    padding-left: 15px;
+}
+
+.product-details h3{
+    margin-top: 7px;
+}
+
+.product img{
+    width: 60px;
+    border-radius: 7px;
+}
